@@ -37,4 +37,9 @@ form p {
 input[type="checkbox"] {
   margin-top: 5px;
   color: #fff;
+  cursor: pointer;
+}
+label {
+  color: #525155;
+  cursor: pointer;
 }
