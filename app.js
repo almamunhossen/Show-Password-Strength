@@ -27,11 +27,11 @@ password.addEventListener("input", function () {
   showPassword();
 });
 
-function showPassword() {
+(function showPassword() {
   //   x.preventDefault();
   if (password.type === "password") {
     password.type = "text";
   } else {
     password.type = "password";
   }
-}
+});
