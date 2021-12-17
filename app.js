@@ -22,16 +22,15 @@ password.addEventListener("input", function () {
     password.style.borderColor = "lightgreen";
     message.style.color = "lightgreen";
   }
-
-  //call Show Password
-  showPassword();
 });
 
-(function showPassword() {
-  //   x.preventDefault();
+//call function Show Password
+function showPassword() {
+  // x.preventDefault();
   if (password.type === "password") {
     password.type = "text";
   } else {
     password.type = "password";
   }
-});
+}
+showPassword();
