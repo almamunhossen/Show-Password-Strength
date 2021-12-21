@@ -12,20 +12,32 @@
 <body>
     <section class="contener">
         <form action="">
-            <input class='input-password' type="password" name="password" id="password-input"
-                placeholder="Enter your password">
-            <input type="button" value="Submit" id="submit-btn">
-            <p id="message">Password is <span id="text-note"></span> </p><br>
+            <div class="form-group">
+                <label for="email-user"> Enter Your Email</label>
+                <input class='input-fild' type="email" name="tex" id="email-user" placeholder="Enter your email"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="password-input"> Enter Your Password </label>
+                <input class='input-fild' type="password" name="password" id="password-input"
+                    placeholder="Enter your password" required>
 
-            <label for="show-password">
-                <input type="checkbox" name="password" id="show-password" onclick="showPassword()"> Show Password
-            </label>
+                <p id="message">Password is <span id="text-note"></span> </p><br>
+
+
+                <label for="show-password">
+                    <input type="checkbox" name="checkbox-show" id="show-password">
+                    Show Password
+                </label> <br>
+                <input type="button" value="Submit" id="submit-btn">
+            </div>
+
 
         </form>
 
     </section>
 
-
+    <footer></footer>
 
     <script src="app.js"></script>
 </body>

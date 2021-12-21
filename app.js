@@ -25,12 +25,20 @@ password.addEventListener("input", function () {
 });
 
 //call function Show Password
-function showPassword() {
-  // x.preventDefault();
+// function showPassword() {
+//   // x.preventDefault();
+//   if (password.type === "password") {
+//     password.type = "text";
+//   } else {
+//     password.type = "password";
+//   }
+// }
+// showPassword();
+let showPassword = document.querySelector("#show-password");
+showPassword.addEventListener("click", function () {
   if (password.type === "password") {
     password.type = "text";
   } else {
     password.type = "password";
   }
-}
-showPassword();
+});

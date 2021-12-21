@@ -13,9 +13,18 @@
   justify-content: center;
   align-items: center;
 }
-form .input-password {
-  width: 300px;
+form {
+  width: 600px;
+  height: 45%;
+  border: 1px solid #525155;
+  padding: 25px;
+  border-radius: 7px;
+  box-shadow: 0 0 20px -10px;
+}
+.input-fild {
+  width: 100%;
   padding: 10px;
+  margin: 7px 0;
   color: #fff;
   outline: none;
   border: 1px solid #525155;
@@ -24,18 +33,37 @@ form .input-password {
 }
 form input[type="button"] {
   padding: 10px;
-  font: size 16px;
+  font-size: 16px;
+  font-weight: bold;
   border-radius: 3px;
   text-transform: uppercase;
   outline: none;
+  border: 1px solid #525155;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #525155;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+form input[type="button"]:hover {
+  background-color: #fff;
+  color: black;
+}
+.form-group {
+  padding: 10px 0;
 }
 form p {
   color: #fff;
   display: none;
   margin-top: 5px;
+  right: 530px;
+  font-size: 10px;
+  position: absolute;
 }
 input[type="checkbox"] {
-  margin-top: 5px;
+  margin: 10px 0px;
   color: #fff;
   cursor: pointer;
 }
