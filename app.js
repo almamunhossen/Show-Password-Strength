@@ -24,7 +24,7 @@ password.addEventListener("input", function () {
   }
 });
 
-//call function Show Password
+//function Show Password
 // function showPassword() {
 //   // x.preventDefault();
 //   if (password.type === "password") {
@@ -33,7 +33,7 @@ password.addEventListener("input", function () {
 //     password.type = "password";
 //   }
 // }
-// showPassword();
+
 let showPassword = document.querySelector("#show-password");
 showPassword.addEventListener("click", function () {
   if (password.type === "password") {
